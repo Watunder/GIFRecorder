@@ -1,0 +1,21 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://icon.png" type="Texture" id=1]
+[ext_resource path="res://addons/GIFRecorder/gifrecorder.gd" type="Script" id=2]
+[ext_resource path="res://Main.gd" type="Script" id=3]
+
+[node name="Main" type="Node"]
+script = ExtResource( 3 )
+
+[node name="GIFRecorder" type="ReferenceRect" parent="."]
+margin_right = 256.0
+margin_bottom = 256.0
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+use_thread = true
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( 128, 128 )
+texture = ExtResource( 1 )

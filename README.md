@@ -1,0 +1,2 @@
+# GIFRecorder
+ Recording frames gif
