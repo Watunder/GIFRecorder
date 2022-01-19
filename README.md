@@ -1,5 +1,5 @@
 # GIFRecorder
- Recording frames gif
+GIF recorder in game
 
 ## Reference
 - [GodotRecorder](https://github.com/henriquelalves/GodotRecorder)
